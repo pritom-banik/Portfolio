@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(39, 36, 36);
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: rgb(39, 36, 36);
+    display: flex;
+}
+.intro{
+    width: 25vw;
+    align-items: right;
+}
+.all{
+    width: 50vw;
+    min-height: 90vh;
+    border-radius: 10px;
+    background-color: black;
+}
+.navigationBar{
+    width: 50vw;
+    min-height: 50px;
+    background-color: rgb(39, 36, 36);
+}
