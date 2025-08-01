@@ -1,13 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl text-red-700 font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[rgb(39,36,36)]">
+    <div class="main flex m-10 min-h-screen">
+      <div class="intro w-[25vw] mt-10 justify-center items-center text-center">
+        <img
+          src="src/images/Pritom_Banik_CSE_2.jpg"
+          alt="Profile Picture"
+          class="mx-auto rounded-lg mb-4"
+        />
+        <p class="text-white text-lg">
+          Hi, I am Pritom Banik. Currently pursuing my bechelors in computer
+          science and engineering in khulna University of Engineering &
+          Technology.
+        </p>
+      </div>
+      <div class="all w-[50vw] ml-10">
+        <div class="navigationBar flex bg-black rounded-lg font-extrabold">
+          <div
+            class="home flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
+             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            Home
+          </div>
+          <div
+            class="project flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
+             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            Projects
+          </div>
+          <div
+            class="coding flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
+             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            Coding
+          </div>
+          <div
+            class="others flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
+             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            Others
+          </div>
+        </div>
+
+        <div class="content mt-4"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
