@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <title>Pritom Banik's Portfolio</title>
   </head>
   <body class="bg-[rgb(39,36,36)]">
     <div class="main flex m-10 min-h-screen">
-      <div class="intro w-[25vw] mt-10 justify-center items-center text-center">
+      <div class="intro w-[25vw] mt-10 justify-center items-center text-center sticky top-20 h-fit">
         <img
-          src="src/images/Pritom_Banik_CSE_2.jpg"
+          src="images\Pritom_Banik_CSE2.jpg"
           alt="Profile Picture"
           class="mx-auto rounded-lg mb-4"
         />
+        <div class="name text-white text-3xl font-bold mb-2 py-1 border-b-3 border-white">
+          <div class="text-3xl">Pritom Banik</div>
+          <div class="text-xl font-medium text-gray-400">Student || CSE,KUET</div>
+        </div>
         <p class="text-white text-lg">
           Hi, I am Pritom Banik. Currently pursuing my bechelors in computer
           science and engineering in khulna University of Engineering &
@@ -22,34 +27,77 @@
       <div class="all w-[50vw] ml-10">
         <div class="navigationBar flex bg-black rounded-lg font-extrabold">
           <div
-            class="home flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
-             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="home flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Home
           </div>
           <div
-            class="project flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
-             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="project flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Projects
           </div>
           <div
-            class="coding flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
-             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="coding flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Coding
           </div>
           <div
-            class="others flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer
-             hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="others flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Others
           </div>
+        </div>
+        <div class="homeContent grid grid-cols-1 gap-4 mt-4">
+          <div class="content bg-black w-[50vw] rounded-lg">
+            <p class="text-white text-3xl font-bold p-2.5 gap-2.5">
+              21 April 2020
+            </p>
+            <img
+              src="images\Screenshot 2024-03-22 001132.png"
+              alt="Image 1"
+              class="image w-[50vw] mt-12"
+            />
+            <h1 class="heading text-white text-2xl font-bold p-2.5">
+              My First Project
+            </h1>
+            <p class="description text-white text-lg p-2.5">
+              This is a screenshot of my first project, which I completed in my
+              first year of university. It was a simple web application that
+              helped me learn the basics of HTML, CSS, and JavaScript.
+            </p>
+            <div
+              class="link mt-2.5 py-5 flex gap-6 justify-around items-center text-white text-3xl border-t-3 border-white"
+            >
+              <i
+                class="fa-solid fa-heart hover:text-blue-400 cursor-pointer"
+              ></i>
+              <div class="w-px h-6 bg-white"></div>
+              <i
+                class="fa-solid fa-message hover:text-blue-400 cursor-pointer"
+              ></i>
+              <div class="w-px h-6 bg-white"></div>
+              <i
+                class="fa-solid fa-link hover:text-blue-400 cursor-pointer"
+              ></i>
+            </div>
+          </div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
+          <div class="content bg-black w-[50vw] h-40 rounded-lg"></div>
         </div>
 
         <div class="content mt-4"></div>
       </div>
     </div>
+    <script
+      src="https://kit.fontawesome.com/6ef185bef2.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./app.js"></script>
   </body>
 </html>
