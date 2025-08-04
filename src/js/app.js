@@ -30,3 +30,17 @@ function renderPosts(posts) {
 }
 // This code fetches a JSON file containing post data and renders it into the HTML.
 // Each post includes a date, image, title, description, and links for interaction.
+
+const tabs = document.querySelectorAll(".navigationBar > div");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => {
+        t.classList.remove("text-white", "border-white", "bg-gray-500");
+        t.classList.add("text-gray-300", "border-transparent");
+      });
+
+      tab.classList.remove("text-gray-300", "border-transparent");
+      tab.classList.add("text-white", "border-white", "bg-gray-500");
+    });
+  });
