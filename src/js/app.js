@@ -9,9 +9,9 @@ function renderPosts(posts) {
   const container = document.getElementById("Content");
   posts.forEach((post) => {
     const postHTML = `
-      <div class="post bg-black w-[50vw] rounded-lg hover:scale-101 transition-all duration-400">
+      <div class="post bg-black w-[60vw] lg:w-[50vw] rounded-lg hover:scale-101 transition-all duration-400">
         <p class="text-white text-3xl font-bold p-2.5">${post.date}</p>
-        <img src="${post.image}" alt="Post Image" class="image w-[50vw] h-[30vw] mt-12" />
+        <img src="${post.image}" alt="Post Image" class="image w-[60vw] lg:w-[50vw] h-[30vw] mt-12" />
         <h1 class="heading text-white text-2xl font-bold p-2.5">${post.title}</h1>
         <p class="description text-white text-lg p-2.5">${post.description}</p>
         <div class="link mt-2.5 py-5 flex gap-6 justify-around items-center text-white text-3xl border-t-3 border-white">
