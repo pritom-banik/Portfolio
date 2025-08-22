@@ -140,15 +140,20 @@
           </div>
         </div>
       </div>
-      <div class="all w-[80vw] items-center lg:w-[50vw] lg:ml-10 ">
+      <div class="all w-[80vw] items-center lg:w-[50vw] lg:ml-10">
         <div
-        id="topNavBar"
+          id="topNavBar"
           class="navigationBar hidden lg:w-[50vw] lg:flex bg-black rounded-lg font-extrabold border border-gray-700 shadow-lg z-50 sticky top-0"
         >
           <div
             class="home bg-gray-500 rounded-lg flex-1 text-center py-3 text-black text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Home
+          </div>
+          <div
+            class="resume rounded-lg flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            Resume
           </div>
           <div
             class="project rounded-lg flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
@@ -228,6 +233,38 @@
             <span class="text-xs">Home</span>
           </div>
 
+          <!-- Resume -->
+          <div
+            class="resume rounded-lg flex-1 flex flex-col items-center justify-center py-0.5 text-gray-300 cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 392.533 392.533"
+              class="w-6 h-6 mb-1 fill-current"
+            >
+              <path
+                d="M292.396,324.849H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582
+      c6.012,0,10.925-4.849,10.925-10.925C303.321,329.697,298.473,324.849,292.396,324.849z
+      M292.396,277.01H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582
+      c6.012,0,10.925-4.849,10.925-10.925C303.321,281.859,298.473,277.01,292.396,277.01z
+      M196.137,45.834c-25.859,0-46.998,21.075-46.998,46.998c0,25.859,21.139,46.933,46.998,46.933s46.998-21.075,46.998-46.998
+      S221.996,45.834,196.137,45.834z M196.137,117.851c-13.77,0-25.083-11.313-25.083-25.083c0-13.77,11.248-25.083,25.083-25.083
+      s25.083,11.313,25.083,25.083C221.22,106.537,209.907,117.851,196.137,117.851z
+      M258.521,163.362c-39.887-15.515-84.752-15.515-124.638,0c-13.059,5.107-21.786,18.101-21.786,32.388v44.347
+      c-0.065,6.012,4.849,10.925,10.861,10.925h146.424c6.012,0,10.925-4.848,10.925-10.925V195.75
+      C280.307,181.463,271.58,168.469,258.521,163.362z M258.521,229.236H133.883v-33.422c0-5.301,3.168-10.214,7.887-12.024
+      c34.844-13.511,74.02-13.511,108.865,0c4.719,1.875,7.887,6.659,7.887,12.024V229.236z
+      M313.083,0H131.491c-8.404,0-16.291,3.232-22.238,9.18L57.018,61.414c-5.947,5.948-9.18,13.834-9.18,22.238v277.333
+      c0,17.39,14.158,31.547,31.547,31.547h233.762c17.39,0,31.547-14.158,31.547-31.547V31.547C344.501,14.158,330.343,0,313.083,0z
+      M112.032,37.236v27.022H85.01L112.032,37.236z M322.715,116.816h-40.598c-6.012,0-10.925,4.849-10.925,10.925
+      c0,6.012,4.848,10.925,10.925,10.925h40.598v19.394h-14.869c-6.012,0-10.925,4.848-10.925,10.925
+      c0,6.012,4.849,10.925,10.925,10.925h14.869v181.139c0,5.366-4.331,9.697-9.632,9.697H79.192c-5.301,0-9.632-4.331-9.632-9.632
+      V86.044h53.398c6.012,0,10.925-4.848,10.925-10.925V21.721h179.2c5.301,0,9.632,4.331,9.632,9.632V116.816z"
+              />
+            </svg>
+            <span class="text-xs">Resume</span>
+          </div>
+
           <!-- Project -->
           <div
             class="project rounded-lg flex-1 flex flex-col items-center justify-center py-0.5 text-gray-300 cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
@@ -279,6 +316,104 @@
             <span class="text-xs">Others</span>
           </div>
         </div>
+
+
+        <!-- Resume Section -->
+        <div class="resume w-full flex flex-col gap-2 p-2">
+          <div
+            class="work bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
+          >
+            <span class="text-2xl">Work Experience</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 mb-1 fill-current font-bold"
+            >
+              <path
+                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+              />
+            </svg>
+            <!-- <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 mb-1 fill-current"
+            >
+              <path
+                d="M297.4 201.4C309.9 188.9 330.2 188.9 342.7 201.4L502.7 361.4C515.2 373.9 515.2 394.2 502.7 406.7C490.2 419.2 469.9 419.2 457.4 406.7L320 269.3L182.6 406.6C170.1 419.1 149.8 419.1 137.3 406.6C124.8 394.1 124.8 373.8 137.3 361.3L297.3 201.3z"
+              />
+            </svg> -->
+          </div>
+          
+
+          <div
+            class="education bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
+          >
+           <span class="text-2xl">Education</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 mb-1 fill-current "
+            >
+              <path
+                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+              />
+            </svg>
+          </div>
+          <div class="skills bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full">
+           <span class="text-2xl">Skills</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 mb-1 fill-current "
+            >
+              <path
+                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+              />
+            </svg>
+          </div>
+          <div
+            class="interest bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
+          >
+           <span class="text-2xl">Interest</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 mb-1 fill-current "
+            >
+              <path
+                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- Resume Section -->
+
+        <!-- Projects Section -->
+        <div class="projects">
+          <div class="project-list grid grid-cols-1 gap-4 mt-4" id="Projects">
+            <!-- Project items will be dynamically added here -->
+          </div>
+        </div>
+        <!-- Projects Section -->
+
+        <!-- Coding Section -->
+        <div class="coding"></div>
+        <!-- Coding Section -->
+
+
+        <!-- Others Section -->
+        <div class="others">
+          <div class="achievements">
+            <h2 class="text-2xl font-bold mb-2 text-white">Achievements</h2>
+            <ul class="list-disc list-inside text-white">
+              <li>Achievement 1: Description of achievement 1.</li>
+              <li>Achievement 2: Description of achievement 2.</li>
+              <li>Achievement 3: Description of achievement 3.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Others Section -->
+         
       </div>
     </div>
     <script
