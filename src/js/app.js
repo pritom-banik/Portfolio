@@ -9,7 +9,7 @@ function renderPosts(posts) {
   const container = document.getElementById("Content");
   posts.forEach((post) => {
     const postHTML = `
-      <div class="post bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 z-50 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
+      <div class="post bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
         <p class="text-white text-3xl font-bold p-2.5">${post.date}</p>
         <img src="${post.image}" alt="Post Image" class="image w-[80vw] lg:w-[50vw] h-[30vw] mt-12 mx-auto" />
         <h1 class="heading text-white text-2xl font-bold p-2.5">${post.title}</h1>
@@ -31,33 +31,61 @@ function renderPosts(posts) {
 // This code fetches a JSON file containing post data and renders it into the HTML.
 // Each post includes a date, image, title, description, and links for interaction.
 
-const tabs = document.querySelectorAll(".navigationBar > div");
+const tabs_up = document.querySelectorAll(".navigationBar > div");
+const tabs_bottom = document.querySelectorAll(".bottom-navigationBar > div");
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      tabs.forEach((t) => {
-        t.classList.remove("text-white", "border-white", "bg-gray-500");
-        t.classList.add("text-gray-300", "border-transparent");
-      });
+  function Highlight(name){
+    tabs_up.forEach((tab)=>{
+      if(tab.classList.contains(name)){
+        tab.classList.remove("text-gray-300","border-transparent");
+        tab.classList.add("text-white","border-white","bg-gray-500");
+      }else{
+        tab.classList.add("text-gray-300","border-transparent");
+        tab.classList.remove("text-white","border-white","bg-gray-500");
+      }
+    })
+    tabs_bottom.forEach((tab)=>{
+      if(tab.classList.contains(name)){
+        tab.classList.remove("text-gray-300","border-transparent");
+        tab.classList.add("text-white","border-white","bg-gray-500");
+      }else{
+        tab.classList.add("text-gray-300","border-transparent");
+        tab.classList.remove("text-white","border-white","bg-gray-500");
+      }
+    })
+  }
 
-      tab.classList.remove("text-gray-300", "border-transparent");
-      tab.classList.add("text-white", "border-white", "bg-gray-500");
-    });
+  tabs_up.forEach((tab)=>{
+    tab.addEventListener("click", ()=>{
+      const name=tab.classList[0];
+      Highlight(name);
+    })
   });
 
-  // Bottom navigation
-const bottom_tabs = document.querySelectorAll(".bottom-navigation-bar > div");
-
-tabs.forEach((tab) => {
-  bottom_tab.addEventListener("click", () => {
-    // Reset all tabs
-    tabs.forEach((t) => {
-      t.classList.remove("text-white", "border-white", "bg-gray-700");
-      t.classList.add("text-gray-400", "border-transparent");
-    });
-
-    // Activate clicked tab
-    tab.classList.remove("text-gray-400", "border-transparent");
-    tab.classList.add("text-white", "border-white", "bg-gray-700");
+  tabs_bottom.forEach((tab)=>{
+    tab.addEventListener("click", ()=>{
+      const name=tab.classList[0];
+      Highlight(name);
+    })
   });
+
+  Highlight("home");
+
+
+const navbar = document.getElementById("topNavBar");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY) {
+    // Scrolling down → hide navbar
+    navbar.style.transform = "translateY(-200%)";
+  } else {
+    // Scrolling up → show navbar
+    navbar.style.transform = "translateY(0)";
+  }
+
+  lastScrollY = currentScrollY;
 });
+
