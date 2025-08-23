@@ -1,4 +1,4 @@
-<div class="experience-content text-white space-y-6">
+<div class="experience-content text-white space-y-6 border border-white rounded-lg p-4">
 
   <!-- Competitive Programming -->
   <div class="experience-section">

@@ -1,4 +1,4 @@
-<div class="skills-content text-white space-y-6">
+<div class="skills-content text-white space-y-6 border border-white rounded-lg p-4">
 
   <div class="skill-section">
     <h2 class="text-xl font-bold underline mb-2">Web Development</h2>

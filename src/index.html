@@ -156,7 +156,7 @@
             Resume
           </div>
           <div
-            class="project rounded-lg flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="projects rounded-lg flex-1 text-center py-3 text-gray-300 text-xl cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             Projects
           </div>
@@ -171,7 +171,7 @@
             Others
           </div>
         </div>
-        <div class="grid grid-cols-1 gap-4 mt-4" id="Content">
+        <div class="grid grid-cols-1 gap-4 mt-4" id="home">
           <!-- <div class="post bg-black w-[50vw] rounded-lg">
             <p class="text-white text-3xl font-bold p-2.5 gap-2.5">
               21 April 2020
@@ -267,7 +267,7 @@
 
           <!-- Project -->
           <div
-            class="project rounded-lg flex-1 flex flex-col items-center justify-center py-0.5 text-gray-300 cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
+            class="projects rounded-lg flex-1 flex flex-col items-center justify-center py-0.5 text-gray-300 cursor-pointer hover:text-white border-b-4 border-transparent hover:border-white transition duration-400"
           >
             <!-- <i class="fa-solid fa-diagram-project text-xl"></i> -->
             <svg
@@ -318,7 +318,7 @@
         </div>
 
         <!-- Resume Section -->
-        <div class="resume w-full flex flex-col gap-4 p-4">
+        <div class="resume hidden w-full flex flex-col gap-4 p-4" id="resume">
           <!-- work -->
           <div class="work">
             <!-- Work header -->
@@ -439,7 +439,7 @@
         <!-- Resume Section -->
 
         <!-- Projects Section -->
-        <div class="projects">
+        <div class="projects hidden" id="projects">
           <div class="project-list grid grid-cols-1 gap-4 mt-4" id="Projects">
             <!-- Project items will be dynamically added here -->
           </div>
@@ -447,7 +447,7 @@
         <!-- Projects Section -->
 
         <!-- Coding Section -->
-        <div class="coding w-full flex flex-col gap-4 p-4">
+        <div class="coding hidden w-full flex flex-col gap-4 p-4" id="coding">
           <!-- //============================ -->
           <div class="problem-solving">
             <!-- Skill header -->
@@ -532,28 +532,95 @@
             <div
               class="all-github-repo hidden grid grid-cols-3 gap-2.5 text-white text-xl bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
               id="all-github-repo"
-            >
-              
-            </div>
+            ></div>
           </div>
           <!-- Github repo -->
         </div>
         <!-- Coding Section -->
 
         <!-- Others Section -->
-        <div class="others">
-          <div class="achievements">
-            <h2 class="text-2xl font-bold mb-2 text-white">Achievements</h2>
-            <ul class="list-disc list-inside text-white">
-              <li>Achievement 1: Description of achievement 1.</li>
-              <li>Achievement 2: Description of achievement 2.</li>
-              <li>Achievement 3: Description of achievement 3.</li>
-            </ul>
+        <div class="others hidden w-full flex flex-col gap-4 p-4" id="others">
+          <!-- Achievements -->
+          <div
+            class="achievement_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"
+            onclick="toggleWork('all-achievement', 'arrow-icon-achievement','.json')"
+          >
+            <span class="text-2xl">Achievements & Extras</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+              class="w-6 h-6 fill-current transition-transform duration-300"
+              id="arrow-icon-achievement"
+            >
+              <path
+                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+              />
+            </svg>
           </div>
+
+          <!-- achievement details -->
+          <div
+            class="all-achievement hidden flex flex-col bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+            id="all-achievement"
+          ></div>
+
+          <!-- Contact me -->
+          <div class="contact bg-black rounded-lg shadow-lg p-6 w-full ">
+          <h2 class="text-white text-2xl font-bold mb-4">Contact Me</h2>
+  
+  <form class="bg-black p-6 rounded-2xl shadow-lg w-full border border-2 border-white space-y-4">
+    <!-- Name -->
+    <div>
+      <label for="name" class="block text-gray-300 text-sm mb-1">Name</label>
+      <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        class="w-full p-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label for="email" class="block text-gray-300 text-sm mb-1">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        class="w-full p-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Enter your email"
+        required
+      />
+    </div>
+
+    <!-- Message -->
+    <div>
+      <label for="message" class="block text-gray-300 text-sm mb-1">Message</label>
+      <textarea 
+        id="message" 
+        name="message" 
+        rows="4" 
+        class="w-full p-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Write your message"
+        required
+      ></textarea>
+    </div>
+
+    <!-- Button -->
+    <button 
+      type="submit" 
+      class="w-full bg-blue-600 text-white p-2 rounded-lg font-semibold hover:bg-blue-500 transition duration-300"
+    >
+      Send
+    </button>
+  </form>
+  </div>
+
+           <!-- Contact me -->
         </div>
         <!-- Others Section -->
-
-        
       </div>
     </div>
     <script
