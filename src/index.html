@@ -317,76 +317,138 @@
           </div>
         </div>
 
-
         <!-- Resume Section -->
-        <div class="resume w-full flex flex-col gap-2 p-2">
-          <div
-            class="work bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
-          >
-            <span class="text-2xl">Work Experience</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              class="w-6 h-6 mb-1 fill-current font-bold"
+        <div class="resume w-full flex flex-col gap-4 p-4">
+          <!-- work -->
+          <div class="work">
+            <!-- Work header -->
+            <div
+              class="work_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"
+              onclick="toggleWork('all-work', 'arrow-icon-work','.json')"
             >
-              <path
-                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
-              />
-            </svg>
-            <!-- <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              class="w-6 h-6 mb-1 fill-current"
-            >
-              <path
-                d="M297.4 201.4C309.9 188.9 330.2 188.9 342.7 201.4L502.7 361.4C515.2 373.9 515.2 394.2 502.7 406.7C490.2 419.2 469.9 419.2 457.4 406.7L320 269.3L182.6 406.6C170.1 419.1 149.8 419.1 137.3 406.6C124.8 394.1 124.8 373.8 137.3 361.3L297.3 201.3z"
-              />
-            </svg> -->
-          </div>
-          
+              <span class="text-2xl">Work Experience</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                class="w-6 h-6 fill-current transition-transform duration-300"
+                id="arrow-icon-work"
+              >
+                <path
+                  d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                />
+              </svg>
+            </div>
 
-          <div
-            class="education bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
-          >
-           <span class="text-2xl">Education</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              class="w-6 h-6 mb-1 fill-current "
+            <!-- Work details -->
+            <div
+              class="all_work flex flex-col bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+              id="all-work"
             >
-              <path
-                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
-              />
-            </svg>
+              
+            </div>
           </div>
-          <div class="skills bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full">
-           <span class="text-2xl">Skills</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              class="w-6 h-6 mb-1 fill-current "
+
+          <!-- work -->
+
+          <!-- education -->
+          <div class="education">
+            <!-- education header -->
+            <div
+              class="education_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"
+              onclick="toggleWork('all-education', 'arrow-icon-education','.json')"
             >
-              <path
-                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
-              />
-            </svg>
-          </div>
-          <div
-            class="interest bg-black text-white font-bold rounded-lg p-2 cursor-pointer flex items-center justify-between w-full"
-          >
-           <span class="text-2xl">Interest</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              class="w-6 h-6 mb-1 fill-current "
+              <span class="text-2xl">Education</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                class="w-6 h-6 fill-current transition-transform duration-300"
+                id="arrow-icon-education"
+              >
+                <path
+                  d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                />
+              </svg>
+            </div>
+
+            <!-- education details -->
+            <div
+              class="all_education hidden flex flex-col bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+              id="all-education"
             >
-              <path
-                d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
-              />
-            </svg>
+              
+            </div>
           </div>
+
+          <!-- education -->
+
+          <!-- skills -->
+
+          <div class="skills">
+            <!-- Skill header -->
+            <div
+              class="skill_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"
+              onclick="toggleWork('all-skill', 'arrow-icon-skill','.txt')"
+            >
+              <span class="text-2xl">Skills</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                class="w-6 h-6 fill-current transition-transform duration-300"
+                id="arrow-icon-skill"
+              >
+                <path
+                  d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                />
+              </svg>
+            </div>
+
+            <!-- skill details -->
+            <div
+              class="all_skill hidden flex flex-col text-white text-xl bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+              id="all-skill"
+            >
+              
+            </div>
+          </div>
+
+          <!-- skills -->
+
+          <!-- Interest -->
+          <div class="Interest">
+            <!-- Interest header -->
+            <div
+              class="skill_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"
+              onclick="toggleWork('all-interest', 'arrow-icon-interest','.txt')"
+            >
+              <span class="text-2xl">Interests</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"
+                class="w-6 h-6 fill-current transition-transform duration-300"
+                id="arrow-icon-interest"
+              >
+                <path
+                  d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                />
+              </svg>
+            </div>
+
+            <!-- interest details -->
+            <div
+              class="all_interest hidden flex flex-col text-white text-xl bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+              id="all-interest"
+            >
+              
+            </div>
+          </div>
+
+          <!-- Interest -->
+
         </div>
         <!-- Resume Section -->
+
+
+        
 
         <!-- Projects Section -->
         <div class="projects">
@@ -400,7 +462,6 @@
         <div class="coding"></div>
         <!-- Coding Section -->
 
-
         <!-- Others Section -->
         <div class="others">
           <div class="achievements">
@@ -413,7 +474,6 @@
           </div>
         </div>
         <!-- Others Section -->
-         
       </div>
     </div>
     <script
