@@ -1,4 +1,4 @@
-<div class="skills">
+<div class="skills text-white space-y-6 border border-white rounded-lg p-4">
   <h2 class="text-white text-2xl font-bold mb-2">Languages</h2>
   <ul class="list-disc list-inside text-white mb-4">
     <li>C</li>
