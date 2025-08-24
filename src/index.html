@@ -6,9 +6,10 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Pritom Banik's Portfolio</title>
   </head>
-  <body class="bg-[rgb(39,36,36)]">
+  <!-- <body class="bg-[rgb(39,36,36)]"> -->
+    <body class="bg-[rgb(39,36,36)]">
     <div
-      class="main flex flex-col items-center lg:items-stretch lg:flex-row m-10 min-h-screen"
+      class="main flex flex-col items-center lg:items-stretch lg:flex-row m-10 min-h-screen z-10"
     >
       <div
         class="intro border border-gray-300 shadow-lg lg:border-0 bg-black w-[80vw] rounded-lg lg:bg-transparent lg:w-[25vw] lg:mt-10 mt-0.5 justify-center items-center text-center"
@@ -401,7 +402,7 @@
         <!-- Resume Section -->
 
         <!-- Projects Section -->
-        <div class="projects hidden" id="projects">
+        <div class="projects hidden grid grid-cols-1 gap-4 mt-4" id="projects">
           <div class="project-list grid grid-cols-1 gap-4 mt-4" id="projects">
             <!-- Project items will be dynamically added here -->
           </div>
@@ -432,7 +433,7 @@
 
             <!-- problem-solving details -->
             <div
-              class="all_problem-solving hidden flex flex-col text-white text-xl bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
+              class="all_problem-solving flex flex-col text-white text-xl bg-black w-full border border-gray-700 shadow-lg py-4 px-4 rounded-b-2xl mx-auto space-y-4 transition-all duration-500 ease-in-out"
               id="all-problem-solving"
             ></div>
           </div>
@@ -501,7 +502,7 @@
         <!-- Coding Section -->
 
         <!-- Others Section -->
-        <div class="others hidden w-full flex flex-col gap-4 p-4" id="others">
+        <div class="others hidden w-full flex flex-col p-4" id="others">
           <!-- Achievements -->
           <div
             class="achievement_header bg-black text-white font-bold rounded-lg p-4 cursor-pointer flex items-center justify-between w-full"

@@ -5,6 +5,13 @@ all_data = [];
 document.addEventListener("DOMContentLoaded", () => {
   home();
   projects();
+  fetchDate();
+  const activeSection = localStorage.getItem("activeSection");
+  if (activeSection) {
+  Highlight(activeSection); // show saved section
+} else {
+  Highlight("home"); // default to home
+}
 });
 
 function home() {
@@ -19,7 +26,7 @@ function home() {
       return res.json();
     })
     .then((posts) => {
-      container.innerHTML = ""; 
+      container.innerHTML = "";
       posts.forEach((post) => {
         const postHTML = `
 <div class="post bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
@@ -48,7 +55,6 @@ function home() {
 }
 
 //==========================================
-
 
 function projects() {
   const container = document.getElementById("projects");
@@ -62,7 +68,7 @@ function projects() {
       return res.json();
     })
     .then((posts) => {
-      container.innerHTML = ""; 
+      container.innerHTML = "";
       posts.forEach((post) => {
         const postHTML = `
 <div class="post bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
@@ -90,53 +96,18 @@ function projects() {
     });
 }
 
-
-
 //===========================================
-
-// function get(section) {
-//   if (section != "home") {
-//     return;
-//   }
-//   const container = document.getElementById("Content");
-//   container.innerHTML = ""; // <-- Added this to clear previous posts before adding new
-//   all_data.forEach((data) => {
-//     // console.log(data.sections);
-//     // console.log(data.sections.includes(section) + " " + section);
-//     if (data.sections.includes(section)) {
-//       let addHTML = `
-// <div class="post bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
-// <p class="text-white text-3xl font-bold p-2.5">${data.date}</p>
-// <img src="${data.image}" alt="Post Image" class="image w-[80vw] lg:w-[50vw] h-[30vw] mt-12 mx-auto" />
-// <h1 class="heading text-white text-2xl font-bold p-2.5">${data.title}</h1>
-// <p class="description text-white text-lg p-2.5">${data.description}</p>
-// <div class="link mt-2.5 py-5 flex gap-6 justify-around items-center text-white text-3xl border-t border-white">
-// <i class="fa-solid fa-heart hover:text-blue-400 cursor-pointer"></i>
-// <div class="w-px h-6 bg-white"></div>
-// <i class="fa-solid fa-message hover:text-blue-400 cursor-pointer"></i>
-// <div class="w-px h-6 bg-white"></div>
-// <a href="${data.link}" target="_blank" rel="noopener noreferrer">
-// <i class="link fa-solid fa-link hover:text-blue-400 cursor-pointer"></i>
-// </a>
-// </div>
-// </div>
-// `;
-//       container.insertAdjacentHTML("beforeend", addHTML);
-//     }
-//   });
-// }
-//==========================================
 
 const tabs_up = document.querySelectorAll(".navigationBar > div");
 const tabs_bottom = document.querySelectorAll(".bottom-navigationBar > div");
 
 function Highlight(name) {
-  //get(name);
   const prev = document.getElementById(lastid);
   prev.classList.add("hidden");
   const id = document.getElementById(name);
   id.classList.remove("hidden");
   lastid = name;
+  localStorage.setItem("activeSection", name);
 
   tabs_up.forEach((tab) => {
     if (tab.classList.contains(name)) {
@@ -172,6 +143,7 @@ tabs_bottom.forEach((tab) => {
   });
 });
 
+//===========================================
 
 const navbar = document.getElementById("topNavBar");
 let lastScrollY = window.scrollY;
@@ -192,6 +164,8 @@ window.addEventListener("scroll", () => {
   lastScrollY = currentScrollY;
 });
 
+//===========================================
+
 function toggleWork(sectionId, arrowId, extension) {
   const allWork = document.getElementById(sectionId);
   const arrow = document.getElementById(arrowId);
@@ -200,30 +174,14 @@ function toggleWork(sectionId, arrowId, extension) {
   allWork.classList.toggle("hidden");
   arrow.classList.toggle("rotate-180");
 
-  let path = "js/" + sectionId + extension;
 
-  // Fetch posts dynamically
-  fetch(`${path}`)
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error("Network response was not ok");
-      }
-      // If the extension is .json, parse as JSON; if .txt, parse as text
-      if (extension === ".json") {
-        return res.json();
-      } else {
-        return res.text();
-      }
-    })
-    .then((data) => renderPosts_2(sectionId, data, extension))
-    .catch((err) => console.error("Error fetching JSON:", err));
 }
 
-function renderPosts_2(containerId, posts, extension) {
+function renderPosts(containerId, posts, extension) {
   const container = document.getElementById(containerId);
-  container.innerHTML = ""; // clear old posts
+  container.innerHTML = ""; 
 
-  if (extension === ".json") {
+  if (extension === "json") {
     posts.forEach((post) => {
       //console.log(post);
       const postHTML = `
@@ -250,3 +208,43 @@ function renderPosts_2(containerId, posts, extension) {
     container.innerHTML = posts;
   }
 }
+
+//===========================================
+
+const files = [
+  ["json", "js/all-achievement.json", "all-achievement"],
+  ["json", "js/all-education.json", "all-education"],
+  ["json", "js/all-work.json", "all-work"],
+  ["txt", "js/all-coding-skill.txt", "all-coding-skill"],
+  ["txt", "js/all-github-repo.txt", "all-github-repo"],
+  ["txt", "js/all-interest.txt", "all-interest"],
+  ["txt", "js/all-problem-solving.txt", "all-problem-solving"],
+  ["txt", "js/all-skill.txt", "all-skill"],
+];
+
+const fetchDate = () => {
+  files
+    .forEach((file) => {
+      if (file[0] === "json") {
+        fetch(file[1])
+          .then((res) => {
+            if (!res.ok) {
+              throw new Error("Network response was not ok for " + file[2]);
+            }
+            return res.json();
+          })
+          .then((data) => renderPosts(file[2], data, "json"))
+          .catch((err) => console.error("Error fetching data:", err));
+      } else {
+        fetch(file[1])
+          .then((res) => {
+            if (!res.ok) {
+              throw new Error("Network response was not ok for " + file[2]);
+            }
+            return res.text();
+          })
+          .then((data) => renderPosts(file[2], data, "txt"))
+          .catch((err) => console.error("Error fetching data:", err));
+      }
+    })
+};

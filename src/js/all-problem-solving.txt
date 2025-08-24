@@ -1,8 +1,7 @@
-<!-- Problem Solving Table -->
 <div class="problem-solving">
   <h3 class="text-xl font-bold underline mb-4">Problem Solving</h3>
   <div class="overflow-x-auto">
-    <table class="w-full text-left border border-gray-500">
+    <table class="w-full text-left border border-gray-500 rounded-lg overflow-hidden">
       <thead class="bg-gray-800 text-white">
         <tr>
           <th class="px-4 py-2 border border-gray-500">OJ</th>
@@ -27,7 +26,6 @@
           <td class="px-4 py-2 border border-gray-500">300+</td>
           <td class="px-4 py-2 border border-gray-500">15+</td>
         </tr>
-        <!-- Add more rows as needed -->
       </tbody>
     </table>
   </div>
