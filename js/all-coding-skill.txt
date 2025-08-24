@@ -1,0 +1,33 @@
+<div class="skills text-white space-y-6 border border-white rounded-lg p-4">
+  <h2 class="text-white text-2xl font-bold mb-2">Languages</h2>
+  <ul class="list-disc list-inside text-white mb-4">
+    <li>C</li>
+    <li>C++</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>SQL (Oracle, Postgres)</li>
+    <li>Bash</li>
+    <li>Assembly (x86)</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PHP</li>
+  </ul>
+
+  <h2 class="text-white text-2xl font-bold mb-2">Frameworks and Libraries</h2>
+  <ul class="list-disc list-inside text-white">
+    <li>React.js</li>
+    <li>Next.js</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>OpenGL</li>
+    <li>Bootstrap</li>
+    <li>Tailwind CSS</li>
+    <li>Material UI</li>
+    <li>Sequelize ORM</li>
+    <li>JavaFX</li>
+    <li>NumPy</li>
+    <li>Pandas</li>
+    <li>Pytorch</li>
+  </ul>
+</div>

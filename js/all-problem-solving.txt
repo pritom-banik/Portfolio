@@ -1,0 +1,32 @@
+<div class="problem-solving">
+  <h3 class="text-xl font-bold underline mb-4">Problem Solving</h3>
+  <div class="overflow-x-auto">
+    <table class="w-full text-left border border-gray-500 rounded-lg overflow-hidden">
+      <thead class="bg-gray-800 text-white">
+        <tr>
+          <th class="px-4 py-2 border border-gray-500">OJ</th>
+          <th class="px-4 py-2 border border-gray-500">Handle</th>
+          <th class="px-4 py-2 border border-gray-500">Max Rating</th>
+          <th class="px-4 py-2 border border-gray-500">Solve Count</th>
+          <th class="px-4 py-2 border border-gray-500">Contest Count</th>
+        </tr>
+      </thead>
+      <tbody class="text-white">
+        <tr class="bg-gray-700">
+          <td class="px-4 py-2 border border-gray-500">Codeforces</td>
+          <td class="px-4 py-2 border border-gray-500">Pritom123</td>
+          <td class="px-4 py-2 border border-gray-500">2000</td>
+          <td class="px-4 py-2 border border-gray-500">900+</td>
+          <td class="px-4 py-2 border border-gray-500">50+</td>
+        </tr>
+        <tr class="bg-gray-800">
+          <td class="px-4 py-2 border border-gray-500">CodeChef</td>
+          <td class="px-4 py-2 border border-gray-500">Pritom123</td>
+          <td class="px-4 py-2 border border-gray-500">1800</td>
+          <td class="px-4 py-2 border border-gray-500">300+</td>
+          <td class="px-4 py-2 border border-gray-500">15+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

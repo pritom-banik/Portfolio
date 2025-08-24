@@ -1,0 +1,68 @@
+<div class="skills-content text-white space-y-6 border border-white rounded-lg p-4">
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Web Development</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> Javascript, HTML, CSS, SQL (Oracle, Postgres)</li>
+      <li><strong>Frontend:</strong> React.js, Next.js, Material UI, Tailwind CSS, Axios, Figma</li>
+      <li><strong>Backend:</strong> Node.js, Express.js, REST API, Postman</li>
+      <li><strong>Database:</strong> Postgres, Oracle, Sequelize ORM, Firebase, Supabase, PL/SQL, PgAdmin</li>
+      <li><strong>DevOps:</strong> Docker, Github Actions, CI/CD, AWS</li>
+      <li><strong>Tools:</strong> Git, Docker, VS Code</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Game Development</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> C++, GDScript, Python</li>
+      <li><strong>Engines:</strong> Godot</li>
+      <li><strong>Libraries:</strong> OpenGL, Pygame</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Competitive Programming</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> C, C++</li>
+      <li><strong>Tools:</strong> VS Code, CPH Judge</li>
+      <li><strong>Platforms:</strong> Codeforces, Codechef, LeetCode, HackerRank, HackerEarth, AtCoder</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Cyber Security</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> Python</li>
+      <li><strong>Tools:</strong> Wireshark, Ghidra, Radare2, GDB, John the Ripper, Hashcat, Metasploit, Nmap, Burp Suite, Packet Tracer, Kali Linux, Aircrack-ng</li>
+      <li><strong>Platforms:</strong> PicoCTF</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Machine Learning</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> Python</li>
+      <li><strong>Libraries:</strong> NumPy, Pandas, Matplotlib, Scikit-learn, Pytorch</li>
+      <li><strong>Tools:</strong> Jupyter Notebook, Google Colab, Hugging Face, Kaggle</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Mobile Development</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> Java, XML</li>
+      <li><strong>Tools:</strong> Android Studio</li>
+    </ul>
+  </div>
+
+  <div class="skill-section">
+    <h2 class="text-xl font-bold underline mb-2">Desktop Development</h2>
+    <ul class="ml-4 list-disc">
+      <li><strong>Languages:</strong> Java, C++</li>
+      <li><strong>Libraries:</strong> JavaFX, JFoenix, OpenGL</li>
+      <li><strong>Tools:</strong> IntelliJ IDEA, Scene Builder</li>
+    </ul>
+  </div>
+
+</div>

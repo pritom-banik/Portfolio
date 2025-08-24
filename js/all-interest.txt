@@ -1,0 +1,73 @@
+<div class="experience-content text-white space-y-6 border border-white rounded-lg p-4">
+
+  <!-- Competitive Programming -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Competitive Programming</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>My journey in Competitive Programming is the foundation of my Computer Science learning.</li>
+      <li>Started problem solving on Codeforces using C, became Specialist in 2 months, then learned C++.</li>
+      <li>Explored other platforms: HackerRank, HackerEarth, LeetCode, CodeChef, AtCoder; participated in contests.</li>
+      <li>After solving 900+ problems and 50+ contests, became Expert on Codeforces.</li>
+      <li>Participated in IUPC and ICPC contests (2021-2023 Dhaka Regional) and BUET IUPCs.</li>
+      <li>Balancing Competitive Programming with academics is challenging, but I plan to return.</li>
+    </ul>
+  </div>
+
+  <!-- Web Development -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Web Development</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>Started building a personal portfolio using a template from html5up.net; hosted on Github Pages.</li>
+      <li>Learned HTML, CSS, JavaScript, Firebase hosting & Firestore database, added Google Analytics.</li>
+      <li>Advanced journey: Level 2 Term 2 Project, learned React, Node, Express, Bootstrap, Axios, Material UI.</li>
+      <li>Database experience: Oracle, PL/SQL, Navigate, PostgreSQL, Supabase, Sequelize ORM.</li>
+      <li>Worked on Brainlytic project: frontend (React JS), backend (Node/Express), database (PostgreSQL).</li>
+      <li>First PERN stack project: led 6 members, backend & database handled by me; learned Tailwind CSS & deployment on render.com.</li>
+      <li>Docker, Docker Compose, CI/CD using Github Actions; participated in Code Samurai 2024 backend challenge.</li>
+      <li>Updated personal portfolio to PERN stack applying all learned skills.</li>
+    </ul>
+  </div>
+
+  <!-- Game Development -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Game Development</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>Started with CLI-based games in C++: snake, chrome dino, dx-ball, space shooter using graphics.h & conio.h.</li>
+      <li>CSE 102: learned iGraphics (C wrapper over OpenGL), made a Dx-Ball simulation & sine curve project.</li>
+      <li>Created minimal game engine using OpenGL; built 2D games like Tetris, Chess, Flappy Bird, Carrom Board.</li>
+      <li>Freelanced on Fiverr: made 30+ 2D games; learned shading, lighting, texturing, modern OpenGL (4.5) using GLEW, GLFW, GLM.</li>
+      <li>Shifted to game engines: Unity & Unreal (3D) tried; preferred Godot for 2D; used GDScript.</li>
+      <li>GameJam 2023: built platformer game, achieved 2nd runner-up.</li>
+    </ul>
+  </div>
+
+  <!-- Machine Learning -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Machine Learning</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>Introduced to NumPy & Pandas in Numerical Methods course; assignments on Regression, Interpolation, Intelligence.</li>
+      <li>Implemented first learning algorithm (Decision Tree) in Level 3 Term 2 AI course; learned gradient descent, training/testing/validation.</li>
+      <li>Learned PyTorch during DL Sprint 2.0 (BUET CSE Fest 2023); team ranked 17th.</li>
+      <li>Thesis in Level 4 Term 1: "Next Generation Location Services: Where Map meets LLM"; studied Neural Networks, LLM, Transformer models, NLP using Hugging Face.</li>
+    </ul>
+  </div>
+
+  <!-- Cyber Security -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Cyber Security</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>Explored hacking: Wireshark, NMap, aircrack-ng, Burp Suite, ARP spoofing, SQL injection, reverse engineering (Ghidra, Radare2), password cracking.</li>
+      <li>Participated in some Capture The Flag (CTF) events.</li>
+    </ul>
+  </div>
+
+  <!-- Android Development -->
+  <div class="experience-section">
+    <h2 class="text-2xl font-bold underline mb-2">Android Development</h2>
+    <ul class="list-disc text-gray-500 pl-6 space-y-2">
+      <li>Developed Android Calculator App using Android Studio with Java (backend) and XML (frontend).</li>
+      <li>Also make web applications responsive for mobile devices.</li>
+    </ul>
+  </div>
+
+</div>
