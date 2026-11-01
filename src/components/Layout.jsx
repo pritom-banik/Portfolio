@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router";
-import { PAGES } from "../navigation.js";
+import { DEFAULT_PATH, PAGES } from "../navigation.js";
 import profile from "../data/profile.json";
 import Profile from "./Profile.jsx";
 import TopNav from "./TopNav.jsx";
 import BottomNav from "./BottomNav.jsx";
 import CurrentUpdates from "./CurrentUpdates.jsx";
+import DotPattern from "./DotPattern.jsx";
+import ThemeToggle from "./ThemeToggle.jsx";
 
 /** Page shell: profile on the left, navigation and the current page in the middle, updates on the right. */
 export default function Layout() {
@@ -20,9 +22,12 @@ export default function Layout() {
   }, [pathname]);
 
   return (
-    // lg: profile | page | updates.  md: profile | page, updates underneath.  Phones: everything stacked.
+    // lg: profile | page | updates.  md: profile | page, updates underneath the page.  Phones: everything stacked.
     <div className="min-h-screen max-w-[1600px] mx-auto px-4 md:px-6 lg:px-8 py-8 pb-24 lg:pb-8 grid gap-10 md:gap-8 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:grid-cols-[minmax(0,1fr)_minmax(0,2.2fr)_minmax(0,1fr)]">
-      <Profile />
+      <DotPattern />
+      <ThemeToggle />
+
+      <Profile isHome={pathname === DEFAULT_PATH} />
 
       <main className="min-w-0">
         <TopNav />
@@ -30,7 +35,7 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <CurrentUpdates />
+      <CurrentUpdates showUpdatesBelowLg={pathname !== "/beyond-work"} />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function EntryCard({ entry }) {
           src={image}
           alt=""
           loading="lazy"
-          className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-lg object-cover bg-white p-0.5"
+          className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-lg object-cover bg-[#fff] p-0.5"
         />
       ) : (
         <div

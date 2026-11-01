@@ -3,16 +3,20 @@ import lifeUpdates from "../data/life-updates.json";
 import { buttonClass } from "./buttons.js";
 import ContactForm from "./ContactForm.jsx";
 
-const LATEST_COUNT = 3;
+const LATEST_COUNT = 2;
 
 /**
  * Right-hand column on large screens (last section on smaller ones):
  * the latest life updates with a link to the full list, then the contact form.
+ * Below lg the updates can be hidden (on the Others page, which already lists them all).
  */
-export default function CurrentUpdates() {
+export default function CurrentUpdates({ showUpdatesBelowLg = true }) {
   return (
-    <aside className="md:col-span-2 lg:col-span-1 lg:col-start-3 lg:row-start-1 lg:sticky lg:top-6 lg:self-start flex flex-col gap-6">
-      <section aria-labelledby="updates-heading" className="bg-black border border-gray-700 rounded-lg shadow-lg p-5">
+    <aside className="md:col-start-2 lg:col-start-3 lg:row-start-1 lg:sticky lg:top-6 lg:self-start min-w-0 flex flex-col gap-6">
+      <section
+        aria-labelledby="updates-heading"
+        className={`bg-black border border-gray-700 rounded-lg shadow-lg p-5 ${showUpdatesBelowLg ? "" : "max-lg:hidden"}`}
+      >
         <h2 id="updates-heading" className="flex items-center gap-2 text-xl font-bold text-white mb-4">
           <span className="relative flex w-2.5 h-2.5" aria-hidden="true">
             <span className="absolute inline-flex w-full h-full rounded-full bg-white opacity-75 animate-ping" />
