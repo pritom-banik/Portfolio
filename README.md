@@ -6,7 +6,6 @@ AI, machine learning and computer vision, and I build web apps with the MERN sta
 where I keep everything in one place: who I am, what I've built, what I'm good at, and what I've
 been up to lately.
 
-**Live site:** https://pritom-banik.github.io/Portfolio/ 
 
 Built with **React**, **Vite**, **React Router** and **Tailwind CSS**. 
 
