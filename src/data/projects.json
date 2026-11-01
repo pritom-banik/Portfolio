@@ -1,0 +1,29 @@
+[
+  {
+    "title": "My First Project",
+    "image": "images/Screenshot 2024-03-22 001132.png",
+    "status": "Completed · April 2020",
+    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
+    "linkLabel": "View on Google Drive"
+  },
+  {
+    "title": "My First Project",
+    "image": "https://drive.google.com/uc?export=view&id=11yCosWx_6KCbQJBFukOiBN57-gLRN6LO",
+    "status": "Completed · April 2020",
+    "description": "Another screenshot of my project.",
+    "tags": [],
+    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
+    "linkLabel": "View on Google Drive"
+  },
+  {
+    "title": "My Rag Day At Chittagong Govt. High School",
+    "image": "https://drive.google.com/uc?export=view&id=11yCosWx_6KCbQJBFukOiBN57-gLRN6LO",
+    "status": "April 2024",
+    "description": "This is the picture of my rag day at school.",
+    "tags": [],
+    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
+    "linkLabel": "View on Google Drive"
+  }
+]

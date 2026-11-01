@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Competitive Programming",
+    "highlights": [
+      "My journey in Competitive Programming is the foundation of my Computer Science learning.",
+      "Started problem solving on Codeforces using C, became Specialist in 2 months, then learned C++.",
+      "Explored other platforms: HackerRank, HackerEarth, LeetCode, CodeChef, AtCoder; participated in contests.",
+      "After solving 900+ problems and 50+ contests, became Expert on Codeforces.",
+      "Participated in IUPC and ICPC contests (2021-2023 Dhaka Regional) and BUET IUPCs.",
+      "Balancing Competitive Programming with academics is challenging, but I plan to return."
+    ]
+  },
+  {
+    "title": "Web Development",
+    "highlights": [
+      "Started building a personal portfolio using a template from html5up.net; hosted on GitHub Pages.",
+      "Learned HTML, CSS, JavaScript, Firebase Hosting & Firestore database, added Google Analytics.",
+      "Advanced journey: Level 2 Term 2 Project, learned React, Node, Express, Bootstrap, Axios, Material UI.",
+      "Database experience: Oracle, PL/SQL, Navigate, PostgreSQL, Supabase, Sequelize ORM.",
+      "Worked on Brainlytic project: frontend (React JS), backend (Node/Express), database (PostgreSQL).",
+      "First PERN stack project: led 6 members, backend & database handled by me; learned Tailwind CSS & deployment on render.com.",
+      "Docker, Docker Compose, CI/CD using GitHub Actions; participated in Code Samurai 2024 backend challenge.",
+      "Updated personal portfolio to PERN stack applying all learned skills."
+    ]
+  },
+  {
+    "title": "Game Development",
+    "highlights": [
+      "Started with CLI-based games in C++: snake, chrome dino, dx-ball, space shooter using graphics.h & conio.h.",
+      "CSE 102: learned iGraphics (C wrapper over OpenGL), made a Dx-Ball simulation & sine curve project.",
+      "Created minimal game engine using OpenGL; built 2D games like Tetris, Chess, Flappy Bird, Carrom Board.",
+      "Freelanced on Fiverr: made 30+ 2D games; learned shading, lighting, texturing, modern OpenGL (4.5) using GLEW, GLFW, GLM.",
+      "Shifted to game engines: Unity & Unreal (3D) tried; preferred Godot for 2D; used GDScript.",
+      "GameJam 2023: built platformer game, achieved 2nd runner-up."
+    ]
+  },
+  {
+    "title": "Machine Learning",
+    "highlights": [
+      "Introduced to NumPy & Pandas in Numerical Methods course; assignments on Regression, Interpolation, Intelligence.",
+      "Implemented first learning algorithm (Decision Tree) in Level 3 Term 2 AI course; learned gradient descent, training/testing/validation.",
+      "Learned PyTorch during DL Sprint 2.0 (BUET CSE Fest 2023); team ranked 17th.",
+      "Thesis in Level 4 Term 1: \"Next Generation Location Services: Where Map meets LLM\"; studied Neural Networks, LLM, Transformer models, NLP using Hugging Face."
+    ]
+  },
+  {
+    "title": "Cyber Security",
+    "highlights": [
+      "Explored hacking: Wireshark, NMap, aircrack-ng, Burp Suite, ARP spoofing, SQL injection, reverse engineering (Ghidra, Radare2), password cracking.",
+      "Participated in some Capture The Flag (CTF) events."
+    ]
+  },
+  {
+    "title": "Android Development",
+    "highlights": [
+      "Developed Android Calculator App using Android Studio with Java (backend) and XML (frontend).",
+      "Built responsive web applications optimised for mobile devices."
+    ]
+  }
+]

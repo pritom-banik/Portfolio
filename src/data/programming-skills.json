@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Languages",
+    "items": [
+      "C",
+      "C++",
+      "JavaScript",
+      "Java",
+      "Python",
+      "SQL (Oracle, Postgres)",
+      "Bash",
+      "Assembly (x86)",
+      "HTML",
+      "CSS",
+      "PHP"
+    ]
+  },
+  {
+    "title": "Frameworks and Libraries",
+    "items": [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "OpenGL",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Material UI",
+      "Sequelize ORM",
+      "JavaFX",
+      "NumPy",
+      "Pandas",
+      "PyTorch"
+    ]
+  }
+]

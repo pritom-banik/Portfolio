@@ -1,0 +1,56 @@
+{
+  "name": "Pritom Banik",
+  "roles": [
+    "Aspiring Software Engineer",
+    "MERN Stack Developer",
+    "Computer Vision Enthusiast",
+    "CSE Undergraduate at KUET"
+  ],
+  "photo": "images/Pritom_Banik_CSE2.jpg",
+  "about": "I am a final-year Computer Science and Engineering undergraduate at Khulna University of Engineering & Technology (KUET), passionate about Artificial Intelligence, Machine Learning, and Computer Vision. My interests lie in exploring deep learning techniques, developing intelligent systems, and applying data-driven approaches to real-world challenges. I am currently pursuing my undergraduate thesis in Computer Vision while strengthening my expertise in machine learning, data analysis, and software development.",
+  "cvUrl": "https://drive.google.com/uc?export=download&id=1AWEB9HugiGkrWIW1K5QXtcRvQ9g88qum",
+  "githubUrl": "https://github.com/pritom-banik",
+  "contactEmail": "your-email@example.com",
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/pritom-banik",
+      "icon": "images/github.png"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/your-profile",
+      "icon": "images/linkedin.png"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/users/your-profile",
+      "icon": "images/discord.png"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/your-profile",
+      "icon": "images/facebook.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/your-profile",
+      "icon": "images/instagram.png"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/your-number",
+      "icon": "images/whatsapp.png"
+    },
+    {
+      "name": "X (formerly Twitter)",
+      "url": "https://x.com/your-profile",
+      "icon": "images/x.png"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:your-email@example.com",
+      "icon": "images/email.png"
+    }
+  ]
+}

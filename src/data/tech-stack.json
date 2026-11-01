@@ -1,0 +1,9 @@
+[
+  { "category": "Languages", "items": ["C", "C++", "JavaScript", "Python", "Java"] },
+  { "category": "Frontend", "items": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "DaisyUI", "Framer Motion"] },
+  { "category": "Backend", "items": ["Node.js", "Express.js", "RESTful API"] },
+  { "category": "Database", "items": ["MongoDB", "MySQL", "Oracle"] },
+  { "category": "Data Analysis", "items": ["NumPy", "Pandas", "Matplotlib", "Seaborn"] },
+  { "category": "Version Control", "items": ["Git", "GitHub"] },
+  { "category": "Deployment", "items": ["Netlify", "Render", "Vercel"] }
+]

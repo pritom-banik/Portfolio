@@ -1,0 +1,41 @@
+[
+  {
+    "name": "FindRedDrop",
+    "description": "A modern blood donation platform built with Next.js that helps connect blood donors, patients, and supporters in a fast and secure way.",
+    "language": "JavaScript",
+    "url": "https://github.com/pritom-banik/FindRedDrop",
+    "homepage": "https://find-red-drop.vercel.app"
+  },
+  {
+    "name": "FindRedDrop-Backend",
+    "description": "REST API backend for FindRedDrop: user registration helpers, blood request management, funding records, admin analytics and public donor search.",
+    "language": "JavaScript",
+    "url": "https://github.com/pritom-banik/FindRedDrop-Backend",
+    "homepage": "https://find-red-drop-backend.vercel.app"
+  },
+  {
+    "name": "IdeaVault",
+    "description": "A web platform for sharing, validating and engaging with startup ideas: explore, bookmark, comment on and publish ideas.",
+    "language": "JavaScript",
+    "url": "https://github.com/pritom-banik/IdeaVault",
+    "homepage": "https://idea-vault-fontend.vercel.app"
+  },
+  {
+    "name": "Focus-Keeper",
+    "description": "A Chrome extension for YouTube for increasing productivity.",
+    "language": "HTML",
+    "url": "https://github.com/pritom-banik/Focus-Keeper"
+  },
+  {
+    "name": "Metal-Detection-and-Automated-Sorting-System",
+    "description": "An IoT-enabled automated sorting system that detects metallic and non-metallic objects using sensors and sorts them with a robotic arm.",
+    "language": "C++",
+    "url": "https://github.com/pritom-banik/Metal-Detection-and-Automated-Sorting-System"
+  },
+  {
+    "name": "godot-game",
+    "description": "An educational game prototype built in the Godot Engine using GDScript for the NASA Space Apps Challenge 2025.",
+    "language": "GDScript",
+    "url": "https://github.com/pritom-banik/godot-game"
+  }
+]

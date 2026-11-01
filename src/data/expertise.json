@@ -1,0 +1,129 @@
+[
+  {
+    "area": "Web Development",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "JavaScript, HTML, CSS, SQL (Oracle, Postgres)"
+      },
+      {
+        "label": "Frontend",
+        "value": "React.js, Next.js, Material UI, Tailwind CSS, Axios, Figma"
+      },
+      {
+        "label": "Backend",
+        "value": "Node.js, Express.js, REST API, Postman"
+      },
+      {
+        "label": "Database",
+        "value": "Postgres, Oracle, Sequelize ORM, Firebase, Supabase, PL/SQL, PgAdmin"
+      },
+      {
+        "label": "DevOps",
+        "value": "Docker, GitHub Actions, CI/CD, AWS"
+      },
+      {
+        "label": "Tools",
+        "value": "Git, Docker, VS Code"
+      }
+    ]
+  },
+  {
+    "area": "Game Development",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "C++, GDScript, Python"
+      },
+      {
+        "label": "Engines",
+        "value": "Godot"
+      },
+      {
+        "label": "Libraries",
+        "value": "OpenGL, Pygame"
+      }
+    ]
+  },
+  {
+    "area": "Competitive Programming",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "C, C++"
+      },
+      {
+        "label": "Tools",
+        "value": "VS Code, CPH Judge"
+      },
+      {
+        "label": "Platforms",
+        "value": "Codeforces, CodeChef, LeetCode, HackerRank, HackerEarth, AtCoder"
+      }
+    ]
+  },
+  {
+    "area": "Cyber Security",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "Python"
+      },
+      {
+        "label": "Tools",
+        "value": "Wireshark, Ghidra, Radare2, GDB, John the Ripper, Hashcat, Metasploit, Nmap, Burp Suite, Packet Tracer, Kali Linux, Aircrack-ng"
+      },
+      {
+        "label": "Platforms",
+        "value": "PicoCTF"
+      }
+    ]
+  },
+  {
+    "area": "Machine Learning",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "Python"
+      },
+      {
+        "label": "Libraries",
+        "value": "NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch"
+      },
+      {
+        "label": "Tools",
+        "value": "Jupyter Notebook, Google Colab, Hugging Face, Kaggle"
+      }
+    ]
+  },
+  {
+    "area": "Mobile Development",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "Java, XML"
+      },
+      {
+        "label": "Tools",
+        "value": "Android Studio"
+      }
+    ]
+  },
+  {
+    "area": "Desktop Development",
+    "details": [
+      {
+        "label": "Languages",
+        "value": "Java, C++"
+      },
+      {
+        "label": "Libraries",
+        "value": "JavaFX, JFoenix, OpenGL"
+      },
+      {
+        "label": "Tools",
+        "value": "IntelliJ IDEA, Scene Builder"
+      }
+    ]
+  }
+]
