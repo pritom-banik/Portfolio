@@ -1,20 +1,26 @@
 [
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEFAiPWnYBAgg/feedshare-shrink_800/feedshare-shrink_800/0/1720541439725?e=1795046400&v=beta&t=ZjVpaT9v8aLLThp-1gWeLfijnfYY7YKJIHD4o_CrvNM",
+    "title": "Senior Executive | Team Durbar",
+    "description": "",
+    "duration": "July 2024 – August 2026"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHl-r7GR0i-OQ/feedshare-shrink_800/B56ZmKRSAdJ8Ag-/0/1758961416973?e=1795046400&v=beta&t=1Wvr6S5nPIe2Qx_uQme3k--LWDWc8Tx3pjZrpVQfPFk",
+    "title": "Creative Director | IEEE Student Branch KUET",
+    "description": "",
+    "duration": "September 2025 – August 2026"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFZIwil288-AA/feedshare-shrink_800/B56Zhf42uGHUAg-/0/1753955398701?e=1795046400&v=beta&t=mEuMhaujeqYgfT3Qnz-6eKQI07xXU0eStpiYkGDD8TM",
+    "title": "Assistant Operations Secretary | KUET Business and Entrepreneurship Club",
+    "description": "",
+    "duration": "February 2024 – May 2026"
+  },
+  {
+    "image": "https://media.licdn.com/dms/image/v2/D562DAQGeIzeG0GTPQA/profile-treasury-image-shrink_160_160/B56ZkAsBPHHUAk-/0/1756653164191?e=1794171600&v=beta&t=SIbz2QlYrrOR8215npV-0hGk6EU4I7SBu83cUDpdXZc",
+    "title": "Batch Representative 2K21 | CSE Association KUET",
+    "description": "",
+    "duration": "December 2024 – April 2026"
   }
 ]

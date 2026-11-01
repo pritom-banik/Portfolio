@@ -33,7 +33,7 @@ export default function BeyondWorkPage() {
         </ul>
       </Section>
 
-      <Section title="Work Experience" defaultOpen={false}>
+      <Section title="Extracurricular Activities" defaultOpen={false}>
         <ShowMoreList items={work} renderItem={(entry) => <EntryCard entry={entry} />} />
       </Section>
 

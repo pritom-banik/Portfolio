@@ -1,16 +1,32 @@
 [
   {
     "judge": "Codeforces",
-    "handle": "Pritom123",
-    "maxRating": "2000",
-    "solved": "900+",
-    "contests": "50+"
+    "handle": "UnpolishedNoob",
+    "solved": "80+",
+    "maxRating": "1203",
+    "rank": "Pupil",
+    "profile": "https://codeforces.com/profile/UnpolishedNoob"
+  },
+  {
+    "judge": "Codeforces",
+    "handle": "jay_ase_na",
+    "solved": "250+",
+    "profile": "https://codeforces.com/profile/jay_ase_na"
   },
   {
     "judge": "CodeChef",
-    "handle": "Pritom123",
-    "maxRating": "1800",
+    "handle": "pritombanik",
+    "solved": "130+",
+    "maxRating": "1203",
+    "contests": "15+",
+    "profile": "https://www.codechef.com/users/pritombanik"
+  },
+  {
+    "judge": "LeetCode",
+    "handle": "pritom-banik",
     "solved": "300+",
-    "contests": "15+"
+    "maxRating": "1423",
+    "contests": "5+",
+    "profile": "https://leetcode.com/u/pritom-banik/"
   }
 ]

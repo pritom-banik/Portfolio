@@ -1,26 +1,30 @@
 [
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
+    "image": "images/blank.jpg",
     "title": "Open-source Contributor | Hacktoberfest 2024 & 2025",
     "description": "Earned Hacktoberfest badges by successfully submitting validated Pull Requests to open-source projects, demonstrating proficiency in Git workflows, collaborative development, and code review.",
-    "duration": "2024 – 2025"
+    "duration": "2024 – 2025",
+    "externalLink": "https://www.holopin.io/@unpolishednoob#badges"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
+    "image": "images/blank.jpg",
     "title": "Galactic Problem Solver | NASA Space Apps Challenge 2025",
     "description": "Served as Team Lead and Developer of Team Paramanu, earning the Galactic Problem Solver distinction from global judges for developing innovative software to address real-world global and aerospace challenges.",
-    "duration": "2025"
+    "duration": "2025",
+    "externalLink": "https://spaceappschallenge.org/"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQH-LV8q1DJoeQ/feedshare-shrink_800/B56ZhkS2QXHkAg-/0/1754029320449?e=1795046400&v=beta&t=jIHMD8Yy4ZNQSnzJdBRMEI8XGggcvtJ56gpSh8NsYZc",
     "title": "8th Place Nationally | 6th Kibo Robot Programming Challenge",
     "description": "As a member of Team Nam Lagbe Na, engineered autonomous navigation and image recognition programs for NASA's ISS Astrobee drone, securing 8th place nationally for script efficiency, obstacle avoidance, and target precision. Organized by JAXA and NASA.",
-    "duration": "2025"
+    "duration": "2025",
+    "externalLink": "https://lnkd.in/p/gxNZbxd9"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHcVZqLQ-FJng/feedshare-shrink_800/feedshare-shrink_800/0/1679621917890?e=1795046400&v=beta&t=E8yiRjbBcC9NSAEo2qJAQliL94t38DAK1UcZirVswSE",
     "title": "2nd Runner-Up | BizBash 3.0 Business Case Study Competition",
     "description": "Competed as a member of Team The Catalysts, solving complex real-world business challenges and presenting strategic solutions through collaborative teamwork and analytical problem-solving.",
-    "duration": "2025"
+    "duration": "2025",
+    "externalLink": "https://lnkd.in/p/gFQd6kxZ"
   }
 ]

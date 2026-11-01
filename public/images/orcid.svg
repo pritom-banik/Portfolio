@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#fff">
+  <!-- ORCID "iD" mark, white like the other social icons -->
+  <circle cx="32" cy="32" r="29" stroke-width="4"/>
+  <circle cx="21" cy="17.5" r="3" fill="#fff" stroke="none"/>
+  <path d="M21 25v24" stroke-width="5"/>
+  <path d="M30 25h7a12 12 0 0 1 0 24h-7z" stroke-width="5" stroke-linejoin="round"/>
+</svg>
