@@ -9,7 +9,7 @@ import BeyondWorkPage from "./pages/BeyondWorkPage.jsx";
  * Both navigation bars and the router are generated from this list.
  */
 export const PAGES = [
-  { path: "/overview", label: "Overview", icon: HomeIcon, element: OverviewPage },
+  { path: "/", label: "Overview", icon: HomeIcon, element: OverviewPage },
   { path: "/projects", label: "Projects", icon: ProjectsIcon, element: ProjectsPage },
   { path: "/skills", label: "Skills", icon: SkillsIcon, element: SkillsPage },
   { path: "/beyond-work", label: "Others", icon: MoreIcon, element: BeyondWorkPage },
