@@ -1,20 +1,26 @@
 [
   {
     "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "Scholarship Recipient",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "title": "Open-source Contributor | Hacktoberfest 2024 & 2025",
+    "description": "Earned Hacktoberfest badges by successfully submitting validated Pull Requests to open-source projects, demonstrating proficiency in Git workflows, collaborative development, and code review.",
+    "duration": "2024 – 2025"
   },
   {
     "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "Competition Finalist",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "title": "Galactic Problem Solver | NASA Space Apps Challenge 2025",
+    "description": "Served as Team Lead and Developer of Team Paramanu, earning the Galactic Problem Solver distinction from global judges for developing innovative software to address real-world global and aerospace challenges.",
+    "duration": "2025"
   },
   {
     "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "title": "8th Place Nationally | 6th Kibo Robot Programming Challenge",
+    "description": "As a member of Team Nam Lagbe Na, engineered autonomous navigation and image recognition programs for NASA's ISS Astrobee drone, securing 8th place nationally for script efficiency, obstacle avoidance, and target precision. Organized by JAXA and NASA.",
+    "duration": "2025"
+  },
+  {
+    "image": "images/Screenshot 2024-03-22 001132.png",
+    "title": "2nd Runner-Up | BizBash 3.0 Business Case Study Competition",
+    "description": "Competed as a member of Team The Catalysts, solving complex real-world business challenges and presenting strategic solutions through collaborative teamwork and analytical problem-solving.",
+    "duration": "2025"
   }
 ]

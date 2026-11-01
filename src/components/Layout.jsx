@@ -9,13 +9,14 @@ import CurrentUpdates from "./CurrentUpdates.jsx";
 
 /** Page shell: profile on the left, navigation and the current page in the middle, updates on the right. */
 export default function Layout() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
-  // Keep the browser tab title in sync with the current page and start each page at the top.
+  // Keep the browser tab title in sync with the current page and start each page at the top
+  // (unless the link points at a section, which the page scrolls to itself).
   useEffect(() => {
     const page = PAGES.find((p) => p.path === pathname);
     document.title = page ? `${page.label} | ${profile.name}` : profile.name;
-    window.scrollTo({ top: 0 });
+    if (!hash) window.scrollTo({ top: 0 });
   }, [pathname]);
 
   return (

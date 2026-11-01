@@ -8,7 +8,7 @@
       },
       {
         "label": "Frontend",
-        "value": "React.js, Next.js, Material UI, Tailwind CSS, Axios, Figma"
+        "value": "React.js, Next.js, Material UI, Tailwind CSS, Figma"
       },
       {
         "label": "Backend",
@@ -16,11 +16,11 @@
       },
       {
         "label": "Database",
-        "value": "Postgres, Oracle, Sequelize ORM, Firebase, Supabase, PL/SQL, PgAdmin"
+        "value": "Postgres, Oracle, Supabase, PL/SQL, PgAdmin"
       },
       {
         "label": "DevOps",
-        "value": "Docker, GitHub Actions, CI/CD, AWS"
+        "value": "Docker, GitHub Actions, CI/CD, Nginx, PM2"
       },
       {
         "label": "Tools",
@@ -33,7 +33,7 @@
     "details": [
       {
         "label": "Languages",
-        "value": "C++, GDScript, Python"
+        "value": " GDScript, Python"
       },
       {
         "label": "Engines",
@@ -41,7 +41,7 @@
       },
       {
         "label": "Libraries",
-        "value": "OpenGL, Pygame"
+        "value": "OpenGL, Raylib"
       }
     ]
   },
@@ -54,28 +54,11 @@
       },
       {
         "label": "Tools",
-        "value": "VS Code, CPH Judge"
+        "value": "VS Code, Codeblocks"
       },
       {
         "label": "Platforms",
-        "value": "Codeforces, CodeChef, LeetCode, HackerRank, HackerEarth, AtCoder"
-      }
-    ]
-  },
-  {
-    "area": "Cyber Security",
-    "details": [
-      {
-        "label": "Languages",
-        "value": "Python"
-      },
-      {
-        "label": "Tools",
-        "value": "Wireshark, Ghidra, Radare2, GDB, John the Ripper, Hashcat, Metasploit, Nmap, Burp Suite, Packet Tracer, Kali Linux, Aircrack-ng"
-      },
-      {
-        "label": "Platforms",
-        "value": "PicoCTF"
+        "value": "Codeforces, CodeChef, LeetCode, HackerRank"
       }
     ]
   },
@@ -97,28 +80,15 @@
     ]
   },
   {
-    "area": "Mobile Development",
-    "details": [
-      {
-        "label": "Languages",
-        "value": "Java, XML"
-      },
-      {
-        "label": "Tools",
-        "value": "Android Studio"
-      }
-    ]
-  },
-  {
     "area": "Desktop Development",
     "details": [
       {
         "label": "Languages",
-        "value": "Java, C++"
+        "value": "Java"
       },
       {
         "label": "Libraries",
-        "value": "JavaFX, JFoenix, OpenGL"
+        "value": "JavaFX"
       },
       {
         "label": "Tools",

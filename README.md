@@ -25,21 +25,23 @@ npm run preview    # serve the production build locally
     ├── index.css            Tailwind CSS import
     ├── components/          Reusable building blocks
     │   ├── Layout.jsx           Page shell: profile + navigation + current page
-    │   ├── Profile.jsx          Sidebar with photo, bio, CV and social links
+    │   ├── Profile.jsx          Left column: photo, name, typewriter roles, CV, socials
     │   ├── TopNav.jsx           Desktop navigation (hides on scroll down)
     │   ├── BottomNav.jsx        Mobile navigation
-    │   ├── Accordion.jsx        Collapsible section
-    │   ├── PostCard.jsx         Overview post
-    │   ├── ProjectCard.jsx      Project with tags and link
+    │   ├── Section.jsx          Numbered page section heading
+    │   ├── PostCard.jsx         News post (Others page)
+    │   ├── ProjectCard.jsx      Featured project with picture, period and links
+    │   ├── RepoGrid.jsx         All GitHub repos, fetched live from the GitHub API
+    │   ├── ShowMoreList.jsx     List that reveals 4 more items per click
+    │   ├── CurrentUpdates.jsx   Right column: latest life updates + contact form
     │   ├── EntryCard.jsx        Work / education / achievement entry
     │   ├── ContactForm.jsx      Contact form (opens the visitor's email client)
     │   └── icons.jsx            Inline SVG icons
     ├── pages/               One component per page
     │   ├── OverviewPage.jsx     #/overview
-    │   ├── BackgroundPage.jsx   #/background
     │   ├── ProjectsPage.jsx     #/projects
     │   ├── SkillsPage.jsx       #/skills
-    │   └── BeyondWorkPage.jsx   #/beyond-work
+    │   └── BeyondWorkPage.jsx   #/beyond-work ("Others" tab)
     └── data/                All site content, as JSON
 ```
 

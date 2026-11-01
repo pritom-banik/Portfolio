@@ -38,7 +38,7 @@ export default function Typewriter({ phrases, className = "" }) {
       <span className="sr-only">{phrases.join(", ")}</span>
       <span aria-hidden="true">
         {phrase.slice(0, length)}
-        <span className="caret-blink ml-0.5 inline-block w-0.5 h-[1.1em] align-[-0.15em] bg-sky-400" />
+        <span className="caret-blink ml-0.5 inline-block w-0.5 h-[1.1em] align-[-0.15em] bg-white" />
       </span>
     </p>
   );

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import profile from "../data/profile.json";
+import { buttonClass } from "./buttons.js";
 
-const INPUT_CLASSES = "w-full p-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500";
+const INPUT_CLASSES = "w-full p-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-white";
 const LABEL_CLASSES = "block text-gray-300 text-sm mb-1";
 
 /**
@@ -34,7 +35,7 @@ export default function ContactForm() {
     <form
       noValidate
       onSubmit={handleSubmit}
-      className="bg-black p-6 rounded-2xl shadow-lg w-full border-2 border-white space-y-4"
+      className="bg-black p-6 rounded-lg shadow-lg w-full border border-gray-700 space-y-4"
     >
       <div>
         <label htmlFor="contact-name" className={LABEL_CLASSES}>Full Name</label>
@@ -51,11 +52,11 @@ export default function ContactForm() {
         <textarea id="contact-message" name="message" rows={4} required placeholder="Write your message" className={INPUT_CLASSES} />
       </div>
 
-      <p role="status" aria-live="polite" className="text-sm text-red-500">{error}</p>
+      <p role="status" aria-live="polite" className="text-sm text-gray-300">{error}</p>
 
       <button
         type="submit"
-        className="w-full bg-blue-600 text-white p-2 rounded-lg font-semibold cursor-pointer hover:bg-blue-500 transition duration-300"
+        className={`w-full ${buttonClass()}`}
       >
         Send Message
       </button>

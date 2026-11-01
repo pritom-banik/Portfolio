@@ -1,22 +1,26 @@
-import { HeartIcon, LinkIcon, MessageIcon } from "./icons.jsx";
+import { buttonClass } from "./buttons.js";
 
-/** Large post card used on the Overview page. */
+/** Life update: date and title, plus an optional picture, description and link. */
 export default function PostCard({ post }) {
   return (
-    <article className="bg-black w-[80vw] lg:w-[50vw] border border-gray-300 shadow-lg py-2 rounded-lg mx-auto hover:scale-101 transition-all duration-400">
-      <p className="text-white text-3xl font-bold p-2.5">{post.date}</p>
-      <img src={post.image} alt={post.title} loading="lazy" className="w-[80vw] lg:w-[50vw] h-[30vw] mt-12 mx-auto" />
-      <h2 className="text-white text-2xl font-bold p-2.5">{post.title}</h2>
-      <p className="text-white text-lg p-2.5">{post.description}</p>
-
-      <div className="mt-2.5 py-5 flex gap-6 justify-around items-center text-white border-t border-white">
-        <HeartIcon className="w-8 h-8 hover:text-blue-400 cursor-pointer" />
-        <div className="w-px h-6 bg-white" aria-hidden="true" />
-        <MessageIcon className="w-8 h-8 hover:text-blue-400 cursor-pointer" />
-        <div className="w-px h-6 bg-white" aria-hidden="true" />
-        <a href={post.link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${post.title}`}>
-          <LinkIcon className="w-8 h-8 hover:text-blue-400 cursor-pointer" />
-        </a>
+    <article className="group flex flex-col sm:flex-row gap-4 rounded-lg p-4 bg-black border border-gray-700 shadow-lg hover:border-white transition-colors duration-300">
+      {post.image && (
+        <img
+          src={post.image}
+          alt=""
+          loading="lazy"
+          className="w-full sm:w-48 aspect-video sm:aspect-[4/3] shrink-0 rounded-lg object-cover bg-gray-900"
+        />
+      )}
+      <div className="flex flex-col gap-1 min-w-0">
+        <time className="text-xs font-semibold uppercase tracking-wider text-gray-400">{post.date}</time>
+        <h3 className="text-lg font-bold text-white">{post.title}</h3>
+        {post.description && <p className="text-gray-400 text-sm flex-1">{post.description}</p>}
+        {post.link && (
+          <a href={post.link} target="_blank" rel="noopener noreferrer" className={`mt-2 self-start ${buttonClass("secondary", "sm")}`}>
+            Read more &rarr;
+          </a>
+        )}
       </div>
     </article>
   );

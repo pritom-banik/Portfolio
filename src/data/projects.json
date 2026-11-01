@@ -1,29 +1,53 @@
 [
   {
-    "title": "My First Project",
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "status": "Completed · April 2020",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
-    "linkLabel": "View on Google Drive"
+    "title": "FindRedDrop",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/FindRedDrop",
+    "period": "Jun 2026",
+    "description": "A modern blood donation platform built with Next.js that helps connect blood donors, patients, and supporters in a fast and secure way.",
+    "tags": ["Next.js", "React", "Tailwind CSS"],
+    "github": "https://github.com/pritom-banik/FindRedDrop",
+    "live": "https://find-red-drop.vercel.app"
   },
   {
-    "title": "My First Project",
-    "image": "https://drive.google.com/uc?export=view&id=11yCosWx_6KCbQJBFukOiBN57-gLRN6LO",
-    "status": "Completed · April 2020",
-    "description": "Another screenshot of my project.",
-    "tags": [],
-    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
-    "linkLabel": "View on Google Drive"
+    "title": "FindRedDrop Backend",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/FindRedDrop-Backend",
+    "period": "Jun 2026",
+    "description": "REST API backend for FindRedDrop: user registration helpers, blood request management, funding records, admin analytics and public donor search.",
+    "tags": ["Node.js", "Express.js", "MongoDB", "REST API"],
+    "github": "https://github.com/pritom-banik/FindRedDrop-Backend",
+    "live": "https://find-red-drop-backend.vercel.app"
   },
   {
-    "title": "My Rag Day At Chittagong Govt. High School",
-    "image": "https://drive.google.com/uc?export=view&id=11yCosWx_6KCbQJBFukOiBN57-gLRN6LO",
-    "status": "April 2024",
-    "description": "This is the picture of my rag day at school.",
-    "tags": [],
-    "link": "https://drive.google.com/drive/folders/1DrPVPu-_E4SgndFlUW4pNBP8ON2CEG3N",
-    "linkLabel": "View on Google Drive"
+    "title": "IdeaVault",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/IdeaVault",
+    "period": "May 2026",
+    "description": "A web platform for sharing, validating and engaging with startup ideas. Users can explore ideas, bookmark promising concepts, comment on posts and publish their own.",
+    "tags": ["React", "Node.js", "Express.js"],
+    "github": "https://github.com/pritom-banik/IdeaVault",
+    "live": "https://idea-vault-fontend.vercel.app"
+  },
+  {
+    "title": "Focus Keeper",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/Focus-Keeper",
+    "period": "Dec 2025 – Apr 2026",
+    "description": "A Chrome extension for YouTube that helps you stay productive.",
+    "tags": ["Chrome Extension", "JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/pritom-banik/Focus-Keeper"
+  },
+  {
+    "title": "Metal Detection and Automated Sorting System",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/Metal-Detection-and-Automated-Sorting-System",
+    "period": "Oct – Dec 2025",
+    "description": "An IoT-enabled automated sorting system that detects metallic and non-metallic objects using sensors and sorts them with a robotic arm.",
+    "tags": ["C++", "Arduino", "IoT"],
+    "github": "https://github.com/pritom-banik/Metal-Detection-and-Automated-Sorting-System"
+  },
+  {
+    "title": "Godot Educational Game",
+    "image": "https://opengraph.githubassets.com/1/pritom-banik/godot-game",
+    "period": "Oct 2025",
+    "description": "An educational game prototype built in the Godot Engine with GDScript for the NASA Space Apps Challenge 2025.",
+    "tags": ["Godot", "GDScript", "NASA Space Apps"],
+    "github": "https://github.com/pritom-banik/godot-game"
   }
 ]

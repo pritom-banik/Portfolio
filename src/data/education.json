@@ -1,20 +1,26 @@
 [
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "",
+    "title": "B.Sc. (Engg.) in Computer Science and Engineering",
+    "description": "Batch 2k21 | Khulna University of Engineering & Technology (KUET) — Khulna, Bangladesh",
+    "duration": "2023 – Present"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Notre_Dame_College%2C_Dhaka_Monogram.svg",
+    "title": "Higher Secondary Certificate (HSC)",
+    "description": "Notre Dame College, Dhaka, Bangladesh",
+    "duration": "2021"
   },
   {
-    "image": "images/Screenshot 2024-03-22 001132.png",
-    "title": "My First Project",
-    "description": "This is a screenshot of my first project, which I completed in my first year of university. It was a simple web application that helped me learn the basics of HTML, CSS, and JavaScript.",
-    "duration": "January 2024 – Present"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chittagong_Collegiate_School_Gate.JPG",
+    "title": "Secondary School Certificate (SSC)",
+    "description": "Chittagong Collegiate School, Chittagong, Bangladesh",
+    "duration": "2017 – 2019"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lc-Ut3jRmQ9sbznqaq9txeCS9hlXkQTEtG1-YuJqCKdPAyebRx4PHBe7&s=10",
+    "title": "Class 5-8",
+    "description": "Chittagong Government High School, Chittagong, Bangladesh",
+    "duration": "2013 – 2017"
   }
 ]

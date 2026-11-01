@@ -1,11 +1,30 @@
-/** Card for work, education and achievement entries. */
+/** Timeline entry for education, work and achievements: picture beside the title, details and date. */
 export default function EntryCard({ entry }) {
+  const { image, title, description, duration } = entry;
+
   return (
-    <article className="bg-black border border-white rounded-lg p-4">
-      <img src={entry.image} alt={entry.title} loading="lazy" className="w-full rounded-lg my-4" />
-      <h3 className="text-white text-xl font-bold mb-2">{entry.title}</h3>
-      <p className="text-gray-300 text-base mb-4">{entry.description}</p>
-      <p className="text-white text-lg font-semibold mb-2">{entry.duration}</p>
+    <article className="flex gap-4 items-start">
+      {image ? (
+        <img
+          src={image}
+          alt=""
+          loading="lazy"
+          className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-lg object-cover bg-white p-0.5"
+        />
+      ) : (
+        <div
+          aria-hidden="true"
+          className="grid place-items-center w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-lg bg-gray-800 border border-gray-700 text-2xl font-bold text-white"
+        >
+          {title.charAt(0)}
+        </div>
+      )}
+
+      <div className="min-w-0">
+        {duration && <p className="text-xs font-semibold uppercase tracking-wider text-gray-400">{duration}</p>}
+        <h3 className="text-lg font-bold text-white mt-0.5">{title}</h3>
+        <p className="text-gray-400">{description}</p>
+      </div>
     </article>
   );
 }
